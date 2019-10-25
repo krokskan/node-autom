@@ -118,14 +118,14 @@
 		"id": "d9104cb0.48da",
 		"type": "exec",
 		"z": "c6788aa7.c4dad8",
-		"command": "git commit -m \"armaggedon\"",
+		"command": "git commit -m \"Valhalla\"",
 		"addpay": true,
 		"append": "",
 		"useSpawn": "false",
 		"timer": "",
 		"oldrc": false,
 		"name": "",
-		"x": 760,
+		"x": 750,
 		"y": 80,
 		"wires": [
 			[
