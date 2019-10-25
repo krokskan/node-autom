@@ -118,14 +118,14 @@
 		"id": "d9104cb0.48da",
 		"type": "exec",
 		"z": "c6788aa7.c4dad8",
-		"command": "git commit -m \"Balkanette\"",
+		"command": "git commit -m ",
 		"addpay": true,
 		"append": "",
 		"useSpawn": "false",
 		"timer": "",
 		"oldrc": false,
 		"name": "",
-		"x": 760,
+		"x": 720,
 		"y": 80,
 		"wires": [
 			[
@@ -191,8 +191,8 @@
 		"y": 80,
 		"wires": [
 			[
-				"d9104cb0.48da",
-				"4a28d44c.87492c"
+				"4a28d44c.87492c",
+				"6ec55000.5ad2d"
 			],
 			[],
 			[
@@ -234,5 +234,22 @@
 		"x": 1010,
 		"y": 20,
 		"wires": []
+	},
+	{
+		"id": "6ec55000.5ad2d",
+		"type": "function",
+		"z": "c6788aa7.c4dad8",
+		"name": "",
+		"func": "msg.payload = '\"'+new Date().toLocaleString()+'\"';\nreturn msg;",
+		"outputs": 1,
+		"noerr": 0,
+		"x": 580,
+		"y": 40,
+		"wires": [
+			[
+				"d9104cb0.48da",
+				"8376f55a.79cb68"
+			]
+		]
 	}
 ]
