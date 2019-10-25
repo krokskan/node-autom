@@ -142,14 +142,14 @@
 		"id": "a68a0bf0.9924f8",
 		"type": "exec",
 		"z": "c6788aa7.c4dad8",
-		"command": "git push -u origin develop",
+		"command": "git push origin master",
 		"addpay": false,
 		"append": "",
 		"useSpawn": "false",
 		"timer": "",
 		"oldrc": false,
 		"name": "",
-		"x": 1030,
+		"x": 1020,
 		"y": 80,
 		"wires": [
 			[
