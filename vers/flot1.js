@@ -129,7 +129,8 @@
 		"y": 80,
 		"wires": [
 			[
-				"a68a0bf0.9924f8"
+				"a68a0bf0.9924f8",
+				"8376f55a.79cb68"
 			],
 			[],
 			[
@@ -219,5 +220,19 @@
 			[],
 			[]
 		]
+	},
+	{
+		"id": "8376f55a.79cb68",
+		"type": "debug",
+		"z": "c6788aa7.c4dad8",
+		"name": "",
+		"active": true,
+		"tosidebar": true,
+		"console": false,
+		"tostatus": false,
+		"complete": "false",
+		"x": 1010,
+		"y": 20,
+		"wires": []
 	}
 ]
