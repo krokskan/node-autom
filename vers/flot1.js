@@ -118,7 +118,7 @@
 		"id": "d9104cb0.48da",
 		"type": "exec",
 		"z": "c6788aa7.c4dad8",
-		"command": "git commit -m \"Valhalla\"",
+		"command": "git commit -m \"Balkany\"",
 		"addpay": true,
 		"append": "",
 		"useSpawn": "false",
