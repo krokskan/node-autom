@@ -26,7 +26,7 @@
 		"tostatus": false,
 		"complete": "payload",
 		"targetType": "msg",
-		"x": 1150,
+		"x": 950,
 		"y": 120,
 		"wires": []
 	},
@@ -40,8 +40,8 @@
 		"console": false,
 		"tostatus": false,
 		"complete": "false",
-		"x": 1150,
-		"y": 80,
+		"x": 950,
+		"y": 40,
 		"wires": []
 	},
 	{
@@ -96,5 +96,60 @@
 				"6dcccd7e.af7224"
 			]
 		]
+	},
+	{
+		"id": "17c10868.297138",
+		"type": "inject",
+		"z": "c6788aa7.c4dad8",
+		"name": "",
+		"topic": "",
+		"payload": "",
+		"payloadType": "date",
+		"repeat": "",
+		"crontab": "",
+		"once": false,
+		"onceDelay": 0.1,
+		"x": 180,
+		"y": 300,
+		"wires": [
+			[
+				"4d20acaa.ebd2b4"
+			]
+		]
+	},
+	{
+		"id": "4d20acaa.ebd2b4",
+		"type": "exec",
+		"z": "c6788aa7.c4dad8",
+		"command": "git pull origin master",
+		"addpay": false,
+		"append": "",
+		"useSpawn": "false",
+		"timer": "",
+		"oldrc": false,
+		"name": "",
+		"x": 440,
+		"y": 300,
+		"wires": [
+			[
+				"21601523.d6902a"
+			],
+			[],
+			[]
+		]
+	},
+	{
+		"id": "21601523.d6902a",
+		"type": "debug",
+		"z": "c6788aa7.c4dad8",
+		"name": "",
+		"active": true,
+		"tosidebar": true,
+		"console": false,
+		"tostatus": false,
+		"complete": "false",
+		"x": 760,
+		"y": 300,
+		"wires": []
 	}
 ]
